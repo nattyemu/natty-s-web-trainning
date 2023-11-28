@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    position: relative;
+    min-height: 100dvh;
+    max-width: 100%;
+    background-color: #031540;
+}
+nav{
+    display: flex;
+    padding-top: 50px;
+    max-width: 100%;
+    justify-content: space-around;
+}
+
+.logo{
+    color: rgb(255, 0, 200);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.logo img{
+    max-width: 20px;
+    min-height: 20px;
+    border-radius: 10px;
+}
+.logo img:hover{
+    max-width: 40px;
+    min-height: 40px;
+    border-radius: 20px;
+}
+.logo span{
+    color: #c6c90c;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.plain-text .spa{
+    background: linear-gradient(to right, #c6c90c black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ul{
+    margin-right: -5%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 3rem;
+    font-weight: 600;
+
+}
+nav ul li a:hover,
+nav ul .first{
+    color: rgb(14, 126, 218);
+}
+
+.section{
+    display: flex;
+    padding-top: 1%;
+    margin-left: 7%;
+}
+.plain-text{
+    padding-left: 5%;
+    padding-top: 9% ;
+    padding-bottom: 9%;
+    background: linear-gradient(40deg, rgb(15, 15, 231), rgb(103, 141, 212));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 70%;
+    
+}
+
+.plain-text p{
+    background: linear-gradient(40deg, rgb(6, 194, 252), rgb(122, 211, 238));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 90%;
+    font-size: 19px;
+    margin-bottom: 1%;
+}
+
+@media (min-width: 460px)
+{
+.plain-text h1{
+    font-size: 60px;
+    font-weight: 800px; 
+    padding-top: 1%;
+}
+.plain-text h2{
+    font-weight: 400px;
+    font-size: 35px;
+    max-width: 70%;
+}
+.plain-text p{
+    max-width: 60%;
+}
+}
+
+.plain-text h2{
+    margin-bottom: 10px;
+}
+
+
+.plain-text button{
+    padding: 3px 5px;
+    background: linear-gradient(20deg, rgb(8, 231, 19),rgb(252, 227, 5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    border: 1px solid #1d2903;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.plain-text button:hover{
+    background: linear-gradient(20deg, gold,rgba(252, 227, 5, 0.103));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 0 0 15px gold;
+}
+.image img{
+    margin-top: 30%;
+    margin-left: -23%;
+    max-width: 90%;
+    border-radius: 50%;
+} 
+
+.icons{
+    position: fixed;
+    top: 40%;
+    left: 5%;
+    bottom: 0;
+    max-width: 10px;
+}
+
+.icons a{
+    margin-bottom: 1%;
+}
+.icons .colo{
+    background-color: rgb(6, 194, 252);
+}
+.icons img{
+    max-width: 40px;
+    min-height: 40px;
+    border-radius: 15px;
+    border: none;
+}
+.icons img:hover{
+    box-shadow: 0 0 10px #0c93c9;
+}

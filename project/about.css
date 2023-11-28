@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnoZALc8YARxNxdUx2BWpI_YL0aQ4UVeIg_Q&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+    min-height: 100dvh;
+    color: rgb(219, 164, 11);
+    text-align: center;
+    line-height: 18px;
+}
+nav{
+    display: flex;
+    padding-top: 30px;
+    max-width: 100%;
+    justify-content: space-around;
+}
+
+.logo{
+    color: rgb(255, 0, 200);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.logo img{
+    max-width: 20px;
+    min-height: 20px;
+    border-radius: 10px;
+}
+
+span{
+    color: #23fa06;
+    font-size: 1.8rem;
+}
+ul{
+    margin-right: -5%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 3rem;
+    font-weight: 600;
+
+}
+nav ul li a:hover,
+nav ul .first{
+    color: rgb(218, 21, 14);
+}
+.container h2{
+    margin-bottom: 2%;
+    padding-top: 9%;
+    font-size: 35px;
+}
+
+.container p{
+    text-align: center;
+    max-width: 85%;
+    font-size: 19px;
+}
+#id{
+    display: none;
+}
+
+label{
+    display: inline-block;
+    color: black;
+    background-color: gold;
+    margin-top: 5px;
+    padding: 5px 5px 5px 5px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.expand{
+    display: none;
+}
+
+#id:checked ~ .expand {
+    display: block;
+}
+
+#id:checked ~ .expand p{
+    text-align: center;
+} 
+#id:checked ~ label{
+    display: none;
+}
+.back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    color: #031540;
+    background-color: rgb(26, 6, 138);
+    padding: 5px;
+    border-radius: 13px;
+}
+.back:hover{
+    background-color: black;
+    color: #fff;
+    box-shadow: 0 0 20px black;
+}

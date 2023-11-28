@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background-color: rgb(10, 10, 10);
+    padding-top: 100px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 18px;
+}
+.container h2{
+    margin-bottom: 10px;
+}
+.container{
+    /* background-color: gold;
+    border-radius: 10px; */
+}
+#id{
+    display: none;
+}
+
+label{
+    display: inline-block;
+    color: black;
+    background-color: rgb(30, 102, 54);
+    margin-top: 5px;
+    padding: 5px 5px 5px 5px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.expand{
+    display: none;
+}
+
+#id:checked ~ .expand {
+    display: block;
+}
+#id:checked ~ label{
+    display: none;
+}
